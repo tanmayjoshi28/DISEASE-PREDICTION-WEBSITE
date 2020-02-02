@@ -7,11 +7,11 @@ They can also share Health Report Detail such as BP , sugar levals etc . for mor
 
 # FORMAT
 
-MAKE SURE THAT THE FILES IN YOUR DEPLOYMENT FOLDER ARE IN THE SAME MANNER AS IN MY DEPLOMENT FOLDER
+MAKE SURE THAT THE FILES IN YOUR DEPLOYMENT FOLDER ARE IN THE SAME MANNER AS IN MY DEPLOMENT FOLDER                
 [ Because if files in that order and format FLASK can understand where to Look for them .]
 
 HTMLS FOLDER SHOULD BE KEPT IN THE DEFAULT DIRECTORY OF YOUR SERVER APPLICATION FORM WHICH IS WILL ACCESS IT.
 
-Note - INSTALL FLASK FIRST USING pip command 
-       TO CREATE A NEW PROJECT FOLLOW  - https://www.jetbrains.com/help/pycharm/creating-flask-project.html
+Note - INSTALL FLASK FIRST USING pip command                                                                            
+       TO CREATE A NEW PROJECT FOLLOW  - https://www.jetbrains.com/help/pycharm/creating-flask-project.html            
        INSTALL ALL THE REQUIRED MODULES FOR APPLYING ML ALGORITHMS FIRST
