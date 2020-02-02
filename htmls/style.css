@@ -1,0 +1,351 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  width;80%;
+  margin:auto;
+  overflow:hidden;
+}
+/*---------Navigation--------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+header
+{
+    border-bottom:#99ff33 4px solid;
+}
+.navbar-brand 
+{
+    height: 92px;
+    padding-left: 30px;
+}
+.logo
+{
+    
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #fff!important;
+}
+.navbar
+{
+    background: #000000;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #99ff33!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+#marquee-wrap
+{
+    color: #000000!important;
+}
+
+.w3-myfont {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/*.card-group
+{
+    margin-bottom: 5px;
+    margin-left:  5px;
+    margin-right:  5px;
+    margin-top: 5px;
+    border:5px solid #8B8B8C;
+    background: #FFFFFF;
+    border-radius:25px;
+}*/
+.row
+{
+    margin-bottom: 0px;
+    margin-left:  5px;
+    margin-right:  5px;
+    margin-top: 0px;
+    background-color: #fff;
+}
+#button
+{
+    border-color: #000000;
+    border-top: 10px;
+    background-color: #99ff33;
+}
+.col-sm-6
+{
+    box-sizing: border-box;
+    box-shadow: #000000;
+}
+#enquiry 
+{
+    margin-top: 0px;
+    padding: 0;
+    text-align: center;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-size-adjust: auto;
+}
+.contact-title
+{
+    margin-top: 0px;
+    color: #000000; 
+    transition: all 4s ease-in-out;
+}
+.contact-title h1
+{
+    font-size: 32px;
+}
+form
+{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control
+{
+    width: 600px;
+    border: none;
+    outline: none;
+    border-bottom: 1px #99ff33;
+    color: #000000;
+    font-size: 18px;
+}
+input
+{
+    height: 45px;
+}
+form .submit
+{
+    background: #99ff33
+    border-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 30px;
+    margin-top: 20px;
+}
+form.submit::hover
+{
+    background-color: #485D85;
+    cursor: pointer;
+}
+.card-deck
+{
+    
+    margin-bottom: 10px;
+    margin-left:  10px;
+    margin-right:  10px;
+    margin-top: 5px;
+    margin: 5;
+    padding: 5;
+}
+.card-title
+{
+    text-align: center;
+    color: #99ff33;
+}
+.card-text
+{
+    text-align: center;
+}
+.card-button
+{
+    text-align: center;
+}
+.card-body
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    border-spacing: 0px;
+}
+.card-title1
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.main
+{
+    text-align: center;
+}
+.table table-bordered table-dark
+{
+    background-color: #99ff33;
+    margin-top: 10px;
+}
+.table table-bordered table-warning
+{
+    background-color: #99ff33;
+    margin-top: 10px;
+}
+.table-header
+{
+    
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mega
+{
+    margin-top: 10px;
+
+}
+.mega1
+{
+    margin-bottom: 10px;
+    margin-left:  10px;
+    margin-right:  10px;
+    margin-top: 10px;
+    margin: 10;
+    padding: 10;
+}
+.main-img
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.jumbotron
+{
+    margin-bottom: 0px;
+    margin-left:  15px;
+    margin-right:  15px;
+    margin-top: 10px;
+    padding: 15px;
+}
+.display-4
+{
+    text-align: center;
+}
+.proc_title
+{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left:  10px;
+    margin-right:  10px;
+    margin-top: 10px;
+    margin: 10;
+    padding: 10;
+}
+.title
+{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left:  10px;
+    margin-right:  10px;
+    margin-top: 10px;
+    margin: 10;
+    padding: 10;
+}
+footer
+{
+    padding:20px;
+    margin-top:20px;
+    color:#000000;
+    background-color:#fff;
+    text-align: center;
+    border-top:#99ff33 4px solid;
+}
+
+.card-body1
+{
+    background-color: #000000;
+    color: aliceblue;
+}
+.modify
+{
+    align-content: center;
+    text-align: center;
+}
+
+/*.card-deck1
+{
+    background-color: #191595;
+}*/
+.map-container-6
+{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-6 iframe
+{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.row2
+{
+    background-color: #000000;
+}
+.alert2
+{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left:  10px;
+    margin-right:  10px;
+    margin-top: 10px;
+    margin: 10;
+    padding: 10;
+}
+.alert1
+{
+    margin-bottom: 10px;
+    margin-left:  10px;
+    margin-right:  10px;
+    margin-top: 10px;
+    margin: 10;
+    padding: 10;
+}
+.form-Subject
+{
+    text-align: center;
+}
+.modification
+{
+    margin-bottom: 10px;
+    margin-left:  10px;
+    margin-right:  10px;
+    margin-top: 10px;
+    margin: 10;
+    padding: 10;
+}
+.glorify
+{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left:  10px;
+    margin-right:  10px;
+    margin-top: 10px;
+    margin: 10;
+    padding: 10;
+}
+.img_detail
+{
+    margin-bottom: 10px;
+    margin-left:  10px;
+    margin-right:  10px;
+    margin-top: 10px;
+    margin: 10;
+    padding: 10;
+}

@@ -1,0 +1,84 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Predicto</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+       
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+        
+        <link href="/static/css/animate.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="/static/css/icomoon.css" rel="stylesheet" type="text/css"/>
+	
+        <link href="/static/css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+	  
+        <link href="/static/css/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="/static/css/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
+          
+        <link href="/static/css/flexslider.css" rel="stylesheet" type="text/css"/>
+	 
+        <link href="/static/fonts/flaticon/font/flaticon.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="/static/js/modernizr-2.6.2.min.js" type="text/javascript"></script>
+        <style>
+            
+        </style>
+	</head>
+	<body>
+        <div>
+        <center>
+	<h1>GIVEN BELOW ARE FEW COMMON SYMPTOMS  </h1>
+        <h2>PLEASE ENTER 1 IF SYMPTOM IS PRESENT AND 0 IF NOT</h2>
+                <!-- Main Input For Receiving Query to our ML -->
+               <form action="{{ url_for('predict_sympt')}}"method="post">
+                   <br>
+                   <input type="text" name="headache" placeholder="Are you facing Headache?" required="required" />
+                   <br>
+                   <br>
+                   <input type="text" name="Cough" placeholder="Are you having Cough?" required="required" />
+                   <br>
+                   <br>
+                   <input type="text" name="Weight" placeholder="Weight Loss?" required="required" />
+                   <br>
+                   <br>
+                   <input type="text" name="bleeding" placeholder="Bleeding?" required="required" />
+                   <br>
+                   <br>
+                   <input type="text" name="chestpain" placeholder="Struggling with chestpain?" required="required" />
+                   <br>
+                   <br>
+                   <input type="text" name="armspain" placeholder="Struggling with arm pain ? " required="required" />
+                   <br><br>
+                   <input type="text" name="Nausea" placeholder="Nausea" required="required" />
+                   <br><br>
+                   <input type="text" name="breathing" placeholder="Facing Breathing problem" required="required" />
+                   <br><br>
+                   <input type="text" name="hunger" placeholder="feeling MORE hungry now days..?" required="required" />
+                   <br><br>
+                   <input type="text" name="tired" placeholder="More tired?" required="required" />
+                   <br><br>
+                   <input type="text" name="urination" placeholder="Frequent Urination" required="required" />
+                   <br><br>
+                   <input type="text" name="Thirst" placeholder="Thirst" required="required" />
+                   <br><br>
+                   <input type="text" name="fatiuge" placeholder="Fatigue" required="required" />
+                   <br><br>
+                   <input type="text" name="Blood Clought" placeholder="Blood CLOUGHT" required="required" />
+                   <br><br>
+                   <input type="text" name="appetite" placeholder="Appetite is getting low..?" required="required" />
+                   <br><br>
+                   <input type="text" name="Fever" placeholder=Fever required="required" />
+                   <br><br>
+                   <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+               </form>
+              {{ prediction_text }}
+        </center>
+        </div>
+	</body>
+</html>
+
