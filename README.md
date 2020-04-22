@@ -14,5 +14,5 @@ HTMLS FOLDER SHOULD BE KEPT IN THE DEFAULT DIRECTORY OF YOUR SERVER APPLICATION 
 
 ### Note -                                                                                                                     
        INSTALL FLASK FIRST                                                                            
-       TO CREATE A NEW PROJECT FOLLOW [THIS -](https://www.jetbrains.com/help/pycharm/creating-flask-project.html)          
+       TO CREATE A NEW PROJECT FOLLOW (https://www.jetbrains.com/help/pycharm/creating-flask-project.html)          
        INSTALL ALL THE REQUIRED MODULES FOR APPLYING ML ALGORITHMS FIRST
